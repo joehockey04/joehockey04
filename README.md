@@ -75,5 +75,5 @@
   ## 📫 Get in touch
 
   - 🌐 **Website** — [quro.ca](https://quro.ca)
-  - 📧 **Email** — [hello@quro.ca](mailto:hello@quro.ca)
+  - 📧 **Email** — [joseph.picard@picanne.com](mailto:joseph.picard@picanne.com)
   - 💼 **Open to** — partnerships, technical interviews, founding-engineer chats
