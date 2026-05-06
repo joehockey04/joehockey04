@@ -13,7 +13,7 @@
     <a href="https://quro.ca/customer-promo.html">
       <img alt="Customer overview" src="https://img.shields.io/badge/Customer-Overview-0a0a0a?style=for-the-badge&logo=safari&logoColor=white">
     </a>
-    <a href="mailto:hello@quro.ca">
+    <a href="mailto:joseph.picard@picanne.com">
       <img alt="Email" src="https://img.shields.io/badge/Contact-hello%40quro.ca-6366f1?style=for-the-badge&logo=maildotru&logoColor=white">
     </a>
   </p>
