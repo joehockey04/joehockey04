@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Joseph 👋</h1>                                                                                                    
                                                                                                                                                
   <p align="center">                                                                                                                           
-    Full-stack engineer building <strong>Quro</strong> — the invisible checkout for dine-in restaurants.<br>                                   
+   Student Want to be Full-stack engineer building <strong>Quro</strong> — the invisible checkout for dine-in restaurants.<br>                                   
     <em>Scan a QR. Tap to pay. Walk out.</em>                                                                                                  
   </p>
 
