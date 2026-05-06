@@ -14,7 +14,7 @@
       <img alt="Customer overview" src="https://img.shields.io/badge/Customer-Overview-0a0a0a?style=for-the-badge&logo=safari&logoColor=white">
     </a>
     <a href="mailto:joseph.picard@picanne.com">
-      <img alt="Email" src="https://img.shields.io/badge/Contact-hello%40quro.ca-6366f1?style=for-the-badge&logo=maildotru&logoColor=white">
+      <img alt="Email" src="https://img.shields.io/badge/Contact-joseph.picard%40picanne.com-6366f1?style=for-the-badge&logo=maildotru&logoColor=white">
     </a>
   </p>
 
