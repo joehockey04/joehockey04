@@ -1,79 +1,70 @@
-<h1 align="center">Hi, I'm Joseph 👋</h1>                                                                                                    
-                                                                                                                                               
-  <p align="center">                                                                                                                           
-   Student Want to be Full-stack engineer building <strong>Quro</strong> — the invisible checkout for dine-in restaurants.<br>                                   
-    <em>Scan a QR. Tap to pay. Walk out.</em>                                                                                                  
-  </p>
+<h1 align="center">Hi, I'm Joseph 👋</h1>
 
-  <p align="center">
-    <a href="https://quro.ca/login.html">
-      <img alt="Live · Quro merchant console"
-  src="https://img.shields.io/badge/Live-quro.ca%2Flogin.html-10b981?style=for-the-badge&logo=googlechrome&logoColor=white">
-    </a>
-    <a href="https://quro.ca/customer-promo.html">
-      <img alt="Customer overview" src="https://img.shields.io/badge/Customer-Overview-0a0a0a?style=for-the-badge&logo=safari&logoColor=white">
-    </a>
-    <a href="mailto:joseph.picard@picanne.com">
-      <img alt="Email" src="https://img.shields.io/badge/Contact-joseph.picard%40picanne.com-6366f1?style=for-the-badge&logo=maildotru&logoColor=white">
-    </a>
-  </p>
+<p align="center">
+  Student & aspiring full-stack engineer.<br>
+  <strong>4 shipped projects in 3 weeks</strong> — all built for free.<br>
+  <em>Looking for the next problem to solve.</em>
+</p>
 
-  ---
+<p align="center">
+  <a href="mailto:joseph.picard@picanne.com">
+    <img alt="Email" src="https://img.shields.io/badge/Contact-joseph.picard%40picanne.com-6366f1?style=for-the-badge&logo=maildotru&logoColor=white">
+  </a>
+  <img alt="Available" src="https://img.shields.io/badge/Status-Cheap%20Labor%20%E2%80%94%20Available-10b981?style=for-the-badge">
+</p>
 
-  ## 🍴 Featured · Quro
+---
 
-  A QR-based **invisible checkout** for restaurants and cafés. Customers scan the QR at their table, pay with Apple Pay or Google Pay in
-  seconds, and walk out — no PIN-pad dance, no waiting on a terminal, no commissions to a delivery middleman.
+## 👋 About
 
-  ### What it does
+I'm a student learning to build real things. Over the last **3 weeks**, I've shipped **4 production projects** — every single one **for free**, because I'm here to build my portfolio and prove I can deliver.
 
-  - 🪄  **Sub-3-second checkout** at the dine-in table
-  - 💸 **Direct Stripe rails** — zero platform commission for the merchant
-  - 📊 **Live analytics** — revenue, AOV, tips, KDS prep time, SLA breaches
-  - 🔔 **Real-time order queue** with audible ding + green flash on payment
-  - 🇨🇦 **EN / FR bilingual**, built for Canadian merchants
-  - 🛡️  **Customer checkout isolated** from third-party trackers (privacy-first)
+If you have an idea, a small business that needs software, or just a problem worth solving — **email me**. I work fast, I work cheap (read: free, for now), and I ship.
 
-  ### Tech stack
+📧 **[joseph.picard@picanne.com](mailto:joseph.picard@picanne.com)** — ideas, requests, or just to chat.
 
-  ![Node.js](https://img.shields.io/badge/Node.js-20_LTS-339933?logo=node.js&logoColor=white)
-  ![Express](https://img.shields.io/badge/Express-5-000000?logo=express&logoColor=white)
-  ![Socket.io](https://img.shields.io/badge/Socket.io-4-010101?logo=socket.io&logoColor=white)
-  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
-  ![Knex](https://img.shields.io/badge/Knex.js-3-D26B38?logo=knexdotjs&logoColor=white)
-  ![Tailwind](https://img.shields.io/badge/Tailwind-3-06B6D4?logo=tailwindcss&logoColor=white)
-  ![Stripe](https://img.shields.io/badge/Stripe-Payments-635BFF?logo=stripe&logoColor=white)
-  ![Nginx](https://img.shields.io/badge/Nginx-1.24-009639?logo=nginx&logoColor=white)
-  ![PM2](https://img.shields.io/badge/PM2-5-2B037A?logo=pm2&logoColor=white)
+---
 
-  ### Architecture highlights
+## 🚀 What I've built
 
-  - **Two-phase Stripe flow** — the QR creates an empty transaction shell first; the actual Stripe Checkout Session is only opened after the
-  customer chooses a tip. Idempotent, refundable, and prevents partial-state ghosts.
-  - **Two-brain architecture** — the merchant analytics surface holds deep telemetry; the customer checkout is *strictly* isolated from
-  third-party trackers (CSP locked, no GTM, no pixels, no analytics on `/customer-*`).
-  - **Server-side recompute on every checkout** — TPS 5% + TVQ 9.975% + tip recalculated server-side from DB prices with a 2¢ tolerance,
-  rejecting cross-merchant ID injection.
-  - **Real-time via Socket.io rooms** — `merchant_{id}` for dashboard + KDS, with payment events that ding and flash green at the exact table
-  number.
-  - **Production posture** — JWT in httpOnly cookies, double-submit CSRF, fail-closed Stripe webhook, hardened headers, Stripe-grade payment
-  isolation.
+### 🍴 [Quro](https://quro.ca) — Invisible checkout for restaurants
+QR-based scan-to-pay for dine-in. Customer scans the QR at their table, pays with Apple Pay or Google Pay in under 3 seconds, walks out. No terminal, no PIN-pad, no commission to delivery middlemen. Live analytics, real-time order queue, EN/FR bilingual.
+**Stack:** Node.js · Express · Socket.io · PostgreSQL · Stripe · Tailwind
+🔗 **[quro.ca](https://quro.ca)**
 
-  ### Try it
+### 🛒 [SoloCheckout](https://www.solocheckout.ca) — Booking + checkout for mobile services
+A booking and payment site for businesses that come to *you* — mobile tire changes, at-home services, on-site work. Customers book a slot and pay upfront, no back-and-forth.
+🔗 **[solocheckout.ca](https://www.solocheckout.ca)**
 
-  | Surface | Link | What you'll see |
-  |---|---|---|
-  | 🔐 **Merchant console** | [quro.ca/login.html](https://quro.ca/login.html) | Sign-in to the operator dashboard (invite-only) |
-  | 🎯 **Pitch / overview** | [quro.ca/promo.html](https://quro.ca/promo.html) | The merchant story — why scan-to-pay beats terminals |
-  | 📱 **Customer overview** | [quro.ca/customer-promo.html](https://quro.ca/customer-promo.html) | "Skip the line. Scan to leave." |
-  | 📚 **Guest guide** | [quro.ca/customer-guide.html](https://quro.ca/customer-guide.html) | 8-chapter how-to for diners |
+### 🎮 [Spacemarx](https://www.spacemarx.ca) — Gacha game
+A browser-based gacha game. Pull characters, build collections, enjoy the dopamine.
+🔗 **[spacemarx.ca](https://www.spacemarx.ca)**
 
-  > *Source code is private during early-access launch — request a walkthrough by [email](mailto:hello@quro.ca).*
+### 📈 Social Media Marketing Guide — Free, high-tier
+A no-cost, high-quality guide to growing on social media. Built to give small businesses and creators the kind of playbook agencies normally charge for.
+📧 **Email me for access**
 
-  ---
+---
 
-  ## 📫 Get in touch
+## 🧰 Tech I work with
 
-  - 🌐 **Website** — [quro.ca](https://quro.ca)
-  - 📧 **Email** — [joseph.picard@picanne.com](mailto:joseph.picard@picanne.com)
-  - 💼 **Open to** — partnerships, technical interviews, founding-engineer chats
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?logo=socket.io&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?logo=stripe&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?logo=pm2&logoColor=white)
+
+---
+
+## 💡 Got an idea? Need something built?
+
+I'm actively looking for **project #5** (and #6, and #7).
+
+- 🆓 **Free of charge** — I'm building experience, not a paycheck.
+- 💬 **Open to anything** — small business tools, web apps, automations, weird side projects, MVPs.
+- ⚡ **Fast turnaround** — 4 projects in 3 weeks should tell you something.
+
+📧 **[joseph.picard@picanne.com](mailto:joseph.picard@picanne.com)** — send me your idea or your problem. Worst case, you get a free "no." Best case, you get a free app.
