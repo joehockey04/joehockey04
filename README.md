@@ -45,7 +45,7 @@ Join the server to become a tester a get access to godMode
 
 ### 📈 Social Media Marketing Guide — Free, high-tier
 A no-cost, high-quality guide to growing on social media. Built to give small businesses and creators the kind of playbook agencies normally charge for.
-📧 **Email me for access**
+🔗 **[socialmediaguide.ca](https://www.socialmediaguide.ca)**
 
 ---
 
