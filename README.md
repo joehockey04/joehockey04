@@ -39,6 +39,8 @@ A booking and payment site for businesses that come to *you* — mobile tire cha
 ### 🎮 [Spacemarx](https://www.spacemarx.ca) — Gacha game
 A browser-based gacha game. Pull characters, build collections, enjoy the dopamine.
 🔗 **[spacemarx.ca](https://www.spacemarx.ca)**
+Join the server to become a tester a get access to godMode
+🔗 **[discordServer](https://discord.gg/nR4J5Cmbu)**
 
 ### 📈 Social Media Marketing Guide — Free, high-tier
 A no-cost, high-quality guide to growing on social media. Built to give small businesses and creators the kind of playbook agencies normally charge for.
